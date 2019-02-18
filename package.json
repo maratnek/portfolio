@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Design ZM",
   "main": "index.js",
+  "homepage": "https://maratnek.github.io/portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w scss/ -o dist/css/"
+    "sass": "node-sass -w scss/ -o dist/css/",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
   "devDependencies": {
     "node-sass": "^4.9.4"
   }
