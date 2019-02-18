@@ -1,4 +1,4 @@
-$primary-color: #333;
+$primary-color: #fff;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url('../img/home-image.jpeg');
@@ -17,7 +17,7 @@ $background-opacity: .9;
     }
     &:after {
       content:'';
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       width: 100%;
@@ -53,7 +53,7 @@ $background-opacity: .9;
     @content;
   }
 }
-@mixin mediaXL {
+@mixin mediaXl {
   @media screen and (min-width: 1171px) {
     @content;
   }
