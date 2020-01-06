@@ -6,7 +6,7 @@
   "homepage": "https://maratnek.github.io/portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w scss/ -o dist/css/",
+    "scss": "node-sass --watch --recursive scss/main.scss -o dist/css",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
@@ -15,6 +15,6 @@
     "gh-pages": "^2.0.1"
   },
   "devDependencies": {
-    "node-sass": "^4.9.4"
+    "node-sass": "^4.13.0"
   }
 }
