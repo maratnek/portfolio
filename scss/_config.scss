@@ -1,5 +1,6 @@
 $primary-color: #fff;
 $secondary-color: #eece1a;
+$border-color: #000;
 $show-home-image: true;
 $home-image: url('../img/home-image.jpeg');
 $background-opacity: .9;
@@ -37,7 +38,8 @@ $background-opacity: .9;
   }
 }
 
-// Media Query Mixins
+/* Media Query Mixins */
+
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
